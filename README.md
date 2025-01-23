@@ -8,7 +8,7 @@ I am publishing this repository following several requests from the community.
 The code is however uploaded as-is simply to act as a reference to assist others.
 
 Apologies in advance for the unorganized and unpolished structure and lack of documentation.
-Feel free to contact me with questions.
+[Feel free to contact me with questions](https://langlet.io/)
 
 ## Directory Structure
 
