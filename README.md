@@ -2,7 +2,7 @@
 This repository provides an implementation of a neural network for the Network Flow Processor (NFP) architecture. 
 This implementation enables real-time flow inference on Netronome Agilio NICs, suitable for smaller NN models.
 
-This project was the core of my Bachelor's thesis in 2019 and served as the foundation for my talk at EuroP4'19.
+This project was the core of my [Bachelor's thesis in 2019](https://langlet.io/assets/papers/Thesis_BSc.pdf) and served as the foundation for [my talk at EuroP4'19](https://langlet.io/assets/papers/P4NN_EuroP4.pdf).
 
 I am publishing this repository following several requests from the community. 
 The code is however uploaded as-is simply to act as a reference to assist others.
