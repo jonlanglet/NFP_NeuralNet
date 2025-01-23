@@ -1,0 +1,248 @@
+Sigmoid Node 0 (output 1)
+    Inputs    Weights
+    Threshold    -6.475317780071281
+    Node 2    -16.992624387905472
+    Node 3    -1.306778052581482
+    Node 4    1.4801654825179378
+    Node 5    5.748023001928833
+    Node 6    4.010890215079033
+    Node 7    18.278534946252808
+    Node 8    -1.145967540207008
+    Node 9    2.072790420621386
+    Node 10    10.852692351013731
+    Node 11    7.765042028559949
+Sigmoid Node 1 (output 0)
+    Inputs    Weights
+    Threshold    6.4753177800712844
+    Node 2    16.99262438790534
+    Node 3    1.306778052581488
+    Node 4    -1.4801654825179371
+    Node 5    -5.748023001928827
+    Node 6    -4.010890215079022
+    Node 7    -18.278534946252684
+    Node 8    1.1459675402070013
+    Node 9    -2.0727904206213927
+    Node 10    -10.852692351013685
+    Node 11    -7.765042028559895
+	
+======Hidden Layer=====
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    6.7733377924419065
+    Attrib dur    51.03578449743737
+    Attrib spkts    -8.317476246289113
+    Attrib dpkts    -6.439900318856915
+    Attrib sbytes    -5.293668131376787
+    Attrib dbytes    -6.765502923715614
+    Attrib sttl    1.6932127579334657
+    Attrib dttl    12.708643585193503
+    Attrib sload    1.6759397571730152
+    Attrib dload    -0.6882019929445413
+    Attrib swin    80.61816859995035
+    Attrib stcpb    24.964157632076358
+    Attrib dtcpb    -2.3136567364655947
+    Attrib dwin    74.96862339934742
+    Attrib tcprtt    -1.7772675681156345
+    Attrib synack    -7.359348865157625
+    Attrib ackdat    2.3936464126587444
+    Attrib smean    -220.60476724850247
+    Attrib dmean    11.745887371085688
+    Attrib is_sm_ips_ports    3.038213865241447
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -13.01503902802976
+    Attrib dur    -33.265761114251816
+    Attrib spkts    13.55988550196362
+    Attrib dpkts    13.361168641765408
+    Attrib sbytes    13.1171992117458
+    Attrib dbytes    13.28501262740366
+    Attrib sttl    8.055349873841246
+    Attrib dttl    7.83461588882552
+    Attrib sload    -7.1634147851274745
+    Attrib dload    13.06777773363267
+    Attrib swin    13.281103099373942
+    Attrib stcpb    -0.1455372683811868
+    Attrib dtcpb    -0.02954662583476061
+    Attrib dwin    13.349600397125062
+    Attrib tcprtt    -8.538916129867529
+    Attrib synack    17.52614129907716
+    Attrib ackdat    -28.978971406805
+    Attrib smean    50.51899007413592
+    Attrib dmean    -35.92946576341986
+    Attrib is_sm_ips_ports    12.921254815385721
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -14.047044528979246
+    Attrib dur    -4.071225521727971
+    Attrib spkts    13.908893385729007
+    Attrib dpkts    14.301676543351336
+    Attrib sbytes    14.833760503699967
+    Attrib dbytes    14.164037729534963
+    Attrib sttl    3.3504962989064704
+    Attrib dttl    14.061069476143631
+    Attrib sload    2.3860911335351185
+    Attrib dload    17.108081992061138
+    Attrib swin    -2.9223868611328663
+    Attrib stcpb    1.1104381886332078
+    Attrib dtcpb    -0.3221928208967949
+    Attrib dwin    -3.2845456135267446
+    Attrib tcprtt    -78.0959168363905
+    Attrib synack    -102.17110045050703
+    Attrib ackdat    21.845669184953568
+    Attrib smean    19.77614262215881
+    Attrib dmean    54.42529614247847
+    Attrib is_sm_ips_ports    10.073687011440988
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    14.387332857422933
+    Attrib dur    33.649031676734076
+    Attrib spkts    -8.192171066404168
+    Attrib dpkts    -8.825212422405833
+    Attrib sbytes    -13.205862968519904
+    Attrib dbytes    -15.586776199646444
+    Attrib sttl    42.02319288227471
+    Attrib dttl    40.578355336948086
+    Attrib sload    -14.29005245155661
+    Attrib dload    -13.724669228797053
+    Attrib swin    -23.308006776839584
+    Attrib stcpb    -0.197470459190981
+    Attrib dtcpb    0.7384753508697184
+    Attrib dwin    1.6931761459052554
+    Attrib tcprtt    -2.0015099067853073
+    Attrib synack    -6.833785772481351
+    Attrib ackdat    -4.3327902289931925
+    Attrib smean    6.351538907422466
+    Attrib dmean    79.37576125721151
+    Attrib is_sm_ips_ports    -15.035516197926132
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -3.949020275544608
+    Attrib dur    5.1056914187910385
+    Attrib spkts    4.349930732052294
+    Attrib dpkts    5.214997183788205
+    Attrib sbytes    3.5561303748783106
+    Attrib dbytes    3.4782261366278884
+    Attrib sttl    3.2982787931535564
+    Attrib dttl    26.69466223211654
+    Attrib sload    3.1040871131094177
+    Attrib dload    6.62566676361064
+    Attrib swin    0.48835613266516253
+    Attrib stcpb    0.11840496369619959
+    Attrib dtcpb    0.676557730793412
+    Attrib dwin    0.12365996108602485
+    Attrib tcprtt    -0.20307514382937875
+    Attrib synack    -9.024706833770084
+    Attrib ackdat    15.020709702918483
+    Attrib smean    -87.34693868889138
+    Attrib dmean    83.1537797896384
+    Attrib is_sm_ips_ports    2.076031817453877
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    2.1790659088992475
+    Attrib dur    17.239911694724572
+    Attrib spkts    1.596621701438346
+    Attrib dpkts    -2.0989721181677816
+    Attrib sbytes    0.28921397102793406
+    Attrib dbytes    -2.4074031693696196
+    Attrib sttl    26.69149478448013
+    Attrib dttl    43.18328866474778
+    Attrib sload    5.212994140990385
+    Attrib dload    -3.306103396806746
+    Attrib swin    -12.745858815208784
+    Attrib stcpb    2.6484752252440122
+    Attrib dtcpb    -0.2078787056375289
+    Attrib dwin    12.81314203262381
+    Attrib tcprtt    -0.33945717229734945
+    Attrib synack    -1.164419633567162
+    Attrib ackdat    -0.4801671134866377
+    Attrib smean    -34.40928263116902
+    Attrib dmean    -3.7078642443341083
+    Attrib is_sm_ips_ports    -2.7969616355041276
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -14.180216365862565
+    Attrib dur    -51.777260340501364
+    Attrib spkts    12.104108821382429
+    Attrib dpkts    11.92655907452746
+    Attrib sbytes    13.6798697048613
+    Attrib dbytes    14.002534738683979
+    Attrib sttl    -25.474131097655935
+    Attrib dttl    -6.665151595622416
+    Attrib sload    -3.5765759234247296
+    Attrib dload    13.596009883726612
+    Attrib swin    -3.1917458444289237
+    Attrib stcpb    0.04926669981225749
+    Attrib dtcpb    0.6874339712963211
+    Attrib dwin    3.212867389276792
+    Attrib tcprtt    1.0304152502492951
+    Attrib synack    13.76588490883764
+    Attrib ackdat    -6.921037743052337
+    Attrib smean    45.04831567952727
+    Attrib dmean    -82.58267821168342
+    Attrib is_sm_ips_ports    14.28151670388676
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    38.106255125364434
+    Attrib dur    207.6903091516375
+    Attrib spkts    -41.36484346641173
+    Attrib dpkts    -37.121242307669526
+    Attrib sbytes    -37.602170831690714
+    Attrib dbytes    -38.157780027850606
+    Attrib sttl    14.978329873091578
+    Attrib dttl    18.250286018770325
+    Attrib sload    -1.9732183306349518
+    Attrib dload    -40.17945566285925
+    Attrib swin    1.2850703639972163
+    Attrib stcpb    0.41564053897844433
+    Attrib dtcpb    -0.01597197180713996
+    Attrib dwin    -18.932865203180572
+    Attrib tcprtt    -19.779274015729
+    Attrib synack    -43.1264813815833
+    Attrib ackdat    -0.773482324514372
+    Attrib smean    185.26047068969245
+    Attrib dmean    -34.55608237933946
+    Attrib is_sm_ips_ports    -39.104278225043394
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -18.361047830528715
+    Attrib dur    66.34377949922003
+    Attrib spkts    26.86419369998771
+    Attrib dpkts    23.400512552304082
+    Attrib sbytes    20.85460307083369
+    Attrib dbytes    18.304758435198252
+    Attrib sttl    -11.504349008295495
+    Attrib dttl    1.7464841567795015
+    Attrib sload    25.15898761102367
+    Attrib dload    1.276099954139086
+    Attrib swin    1.9433301812985362
+    Attrib stcpb    0.19588165374715558
+    Attrib dtcpb    -0.1958114224100881
+    Attrib dwin    0.8466134658972194
+    Attrib tcprtt    -11.438607775324488
+    Attrib synack    -6.507337806129278
+    Attrib ackdat    3.3234528713980054
+    Attrib smean    -98.78830685543709
+    Attrib dmean    -117.26378152466042
+    Attrib is_sm_ips_ports    18.079620541714736
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -2.686582896104957
+    Attrib dur    -5.863219195808322
+    Attrib spkts    3.180645682296776
+    Attrib dpkts    3.6011703508072905
+    Attrib sbytes    2.8508527847756855
+    Attrib dbytes    1.9874731946519233
+    Attrib sttl    -28.63692998587251
+    Attrib dttl    -0.6531321667907591
+    Attrib sload    16.30730006223345
+    Attrib dload    -4.955888580016923
+    Attrib swin    1.8436677023245978
+    Attrib stcpb    -0.6023181035461797
+    Attrib dtcpb    -0.5262045861446889
+    Attrib dwin    1.8105874590258855
+    Attrib tcprtt    -11.90066918901321
+    Attrib synack    -15.982449513546005
+    Attrib ackdat    4.3620817271010734
+    Attrib smean    30.87093252224155
+    Attrib dmean    0.8643102812230925
+    Attrib is_sm_ips_ports    -1.4331119394933076

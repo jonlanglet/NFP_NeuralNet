@@ -1,0 +1,233 @@
+{
+    "tables": {
+        "ingress::featureCollection": {
+            "default_rule": {
+                "action": {
+                    "data": {
+                        "ttl_backward": {
+                            "value": "1"
+                        }, 
+                        "handshakeTimes": {
+                            "value": "1"
+                        }, 
+                        "isn_forward": {
+                            "value": "1"
+                        }, 
+                        "tcpWin_backward": {
+                            "value": "1"
+                        }, 
+                        "totalFlowData": {
+                            "value": "1"
+                        }, 
+                        "tproto": {
+                            "value": "1"
+                        }, 
+                        "retrans_forward": {
+                            "value": "1"
+                        }, 
+                        "duration": {
+                            "value": "1"
+                        }, 
+                        "packetCount_backward": {
+                            "value": "1"
+                        }, 
+                        "lastPktTime": {
+                            "value": "1"
+                        }, 
+                        "ENABLE_DIRECTIONALITY": {
+                            "value": "1"
+                        }, 
+                        "minPktSize_forward": {
+                            "value": "1"
+                        }, 
+                        "ENABLE_TIME": {
+                            "value": "1"
+                        }, 
+                        "retrans_backward": {
+                            "value": "1"
+                        }, 
+                        "maxPktSize_backward": {
+                            "value": "1"
+                        }, 
+                        "tcpWin_forward": {
+                            "value": "1"
+                        }, 
+                        "totalFlowData_forward": {
+                            "value": "1"
+                        }, 
+                        "firstPktTime": {
+                            "value": "1"
+                        }, 
+                        "ENABLE_FLOW_RECORDING": {
+                            "value": "1"
+                        }, 
+                        "isn_backward": {
+                            "value": "1"
+                        }, 
+                        "packetCount_forward": {
+                            "value": "1"
+                        }, 
+                        "ttl_forward": {
+                            "value": "1"
+                        }, 
+                        "minPktSize_backward": {
+                            "value": "1"
+                        }, 
+                        "maxPktSize_forward": {
+                            "value": "1"
+                        }, 
+                        "aproto": {
+                            "value": "1"
+                        }, 
+                        "minPktSize": {
+                            "value": "1"
+                        }, 
+                        "packetCount": {
+                            "value": "1"
+                        }, 
+                        "totalFlowData_backward": {
+                            "value": "1"
+                        }, 
+                        "maxPktSize": {
+                            "value": "1"
+                        }
+                    }, 
+                    "type": "ingress::setRecordedFeatures"
+                }, 
+                "name": "default record all"
+            }
+        }, 
+        "ingress::routetable": {
+            "rules": [
+                {
+                    "action": {
+                        "data": {
+                            "port": {
+                                "value": "p3"
+                            }
+                        }, 
+                        "type": "ingress::packetForward"
+                    }, 
+                    "name": "p2 to p3", 
+                    "match": {
+                        "standard_metadata.ingress_port": {
+                            "value": "p2"
+                        }
+                    }
+                }, 
+                {
+                    "action": {
+                        "data": {
+                            "port": {
+                                "value": "p5"
+                            }
+                        }, 
+                        "type": "ingress::packetForward"
+                    }, 
+                    "name": "p4 to p5", 
+                    "match": {
+                        "standard_metadata.ingress_port": {
+                            "value": "p4"
+                        }
+                    }
+                }, 
+                {
+                    "action": {
+                        "data": {
+                            "port": {
+                                "value": "p4"
+                            }
+                        }, 
+                        "type": "ingress::packetForward"
+                    }, 
+                    "name": "p5 to p4", 
+                    "match": {
+                        "standard_metadata.ingress_port": {
+                            "value": "p5"
+                        }
+                    }
+                }, 
+                {
+                    "action": {
+                        "data": {
+                            "port": {
+                                "value": "p7"
+                            }
+                        }, 
+                        "type": "ingress::packetForward"
+                    }, 
+                    "name": "p6 to p7", 
+                    "match": {
+                        "standard_metadata.ingress_port": {
+                            "value": "p6"
+                        }
+                    }
+                }, 
+                {
+                    "action": {
+                        "data": {
+                            "port": {
+                                "value": "p6"
+                            }
+                        }, 
+                        "type": "ingress::packetForward"
+                    }, 
+                    "name": "p7 to p6", 
+                    "match": {
+                        "standard_metadata.ingress_port": {
+                            "value": "p7"
+                        }
+                    }
+                }, 
+                {
+                    "action": {
+                        "data": {
+                            "port": {
+                                "value": "p2"
+                            }
+                        }, 
+                        "type": "ingress::packetForward"
+                    }, 
+                    "name": "p3 to p2", 
+                    "match": {
+                        "standard_metadata.ingress_port": {
+                            "value": "p3"
+                        }
+                    }
+                }, 
+                {
+                    "action": {
+                        "data": {
+                            "port": {
+                                "value": "p0"
+                            }
+                        }, 
+                        "type": "ingress::packetForward"
+                    }, 
+                    "name": "p1 to p0", 
+                    "match": {
+                        "standard_metadata.ingress_port": {
+                            "value": "p1"
+                        }
+                    }
+                }, 
+                {
+                    "action": {
+                        "data": {
+                            "port": {
+                                "value": "p1"
+                            }
+                        }, 
+                        "type": "ingress::packetForward"
+                    }, 
+                    "name": "p0 to p1", 
+                    "match": {
+                        "standard_metadata.ingress_port": {
+                            "value": "p0"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

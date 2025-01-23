@@ -1,0 +1,426 @@
+=== Run information ===
+Class 1
+    Node 0
+Class 0
+    Node 1
+    
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -1.4403066004225995
+    Node 14    2.6872119992790346
+    Node 15    2.6163567630686595
+    Node 16    -7.7633799208760506
+    Node 17    2.2121845847988144
+    Node 18    8.366131914419563
+    Node 19    8.604638224780404
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    1.4403066004226
+    Node 14    -2.687211999279035
+    Node 15    -2.616356763068659
+    Node 16    7.76337992087606
+    Node 17    -2.2121845847988153
+    Node 18    -8.366131914419574
+    Node 19    -8.604638224780409
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    2.458648812231578
+    Attrib dur    0.6708178510654583
+    Attrib spkts    -2.6495580739967535
+    Attrib dpkts    -2.8312370809062286
+    Attrib sbytes    -1.9094470481344703
+    Attrib dbytes    -2.3602666659450366
+    Attrib sttl    10.701083037128628
+    Attrib dttl    3.997087417669214
+    Attrib sload    -2.743091023072573
+    Attrib dload    -2.3469184950508537
+    Attrib swin    2.6763429896783624
+    Attrib stcpb    0.012768931466366871
+    Attrib dtcpb    0.012068602059983325
+    Attrib dwin    3.4506641360401207
+    Attrib tcprtt    5.8425582932517495
+    Attrib synack    5.22715948416788
+    Attrib ackdat    -0.11916004944636027
+    Attrib smean    -0.9613096110834933
+    Attrib dmean    9.037359909368591
+    Attrib ct_state_ttl    2.651854281791408
+    Attrib is_ftp_login    3.3153977916531185
+    Attrib ct_ftp_cmd    3.32107505509367
+    Attrib ct_flw_http_mthd    16.354665243618058
+    Attrib is_sm_ips_ports    -2.6470427785595856
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    0.9772975089787325
+    Attrib dur    1.6040072861357768
+    Attrib spkts    -1.0058868258040685
+    Attrib dpkts    -0.36570088317937505
+    Attrib sbytes    -0.6410902979939577
+    Attrib dbytes    -0.8641272136784104
+    Attrib sttl    11.98664445017701
+    Attrib dttl    6.260593800147034
+    Attrib sload    -3.6797242883637225
+    Attrib dload    -0.24412000005104253
+    Attrib swin    1.633729353297278
+    Attrib stcpb    0.12800732794654837
+    Attrib dtcpb    -0.043280274590354315
+    Attrib dwin    2.6827162415629773
+    Attrib tcprtt    0.969176364150127
+    Attrib synack    -4.815951598890118
+    Attrib ackdat    5.700330656131205
+    Attrib smean    -41.07368398451005
+    Attrib dmean    34.68371950235029
+    Attrib ct_state_ttl    16.060603240876052
+    Attrib is_ftp_login    0.9901606025812699
+    Attrib ct_ftp_cmd    0.939717806852282
+    Attrib ct_flw_http_mthd    11.800126873057081
+    Attrib is_sm_ips_ports    -1.9996359028398598
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -8.804952744957326
+    Attrib dur    -50.81242792638976
+    Attrib spkts    0.4961299445245801
+    Attrib dpkts    7.193387040882195
+    Attrib sbytes    8.399249481423006
+    Attrib dbytes    8.790696474669996
+    Attrib sttl    -41.9835908336779
+    Attrib dttl    -11.131693668113677
+    Attrib sload    0.28592079796418157
+    Attrib dload    8.982231651210016
+    Attrib swin    4.922383167841133
+    Attrib stcpb    0.09353156128772842
+    Attrib dtcpb    0.14874531489807075
+    Attrib dwin    3.8196055736353114
+    Attrib tcprtt    8.075624685524163
+    Attrib synack    11.809521948424075
+    Attrib ackdat    4.610662912249685
+    Attrib smean    -119.16229246284611
+    Attrib dmean    25.72920516198563
+    Attrib ct_state_ttl    0.20260831842428173
+    Attrib is_ftp_login    2.323616429938163
+    Attrib ct_ftp_cmd    2.3068231425437733
+    Attrib ct_flw_http_mthd    18.992370548899245
+    Attrib is_sm_ips_ports    9.018839319312026
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -7.367257694090622
+    Attrib dur    -1.1899689038551955
+    Attrib spkts    8.796457852803023
+    Attrib dpkts    7.714553756113332
+    Attrib sbytes    7.953567555205544
+    Attrib dbytes    7.3410759924564895
+    Attrib sttl    15.651803322998964
+    Attrib dttl    8.254016489016239
+    Attrib sload    7.404663459311059
+    Attrib dload    12.766821575690832
+    Attrib swin    -6.50097881041384
+    Attrib stcpb    0.01567453505643943
+    Attrib dtcpb    -0.050057273365715894
+    Attrib dwin    -5.909081286602182
+    Attrib tcprtt    -10.176783168458773
+    Attrib synack    -9.722170262896459
+    Attrib ackdat    3.3594193808453015
+    Attrib smean    3.1263477273065847
+    Attrib dmean    -26.70691702182848
+    Attrib ct_state_ttl    -22.806849866330193
+    Attrib is_ftp_login    3.776083622178302
+    Attrib ct_ftp_cmd    2.168603644085613
+    Attrib ct_flw_http_mthd    -32.94094806270587
+    Attrib is_sm_ips_ports    5.397062745779985
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.9154435090272136
+    Attrib dur    -3.673422496625841
+    Attrib spkts    0.46455209507532297
+    Attrib dpkts    -2.6497328516757834
+    Attrib sbytes    3.898189505601546
+    Attrib dbytes    0.643987695601852
+    Attrib sttl    4.148458636420806
+    Attrib dttl    -0.25347974180758504
+    Attrib sload    -0.878801207027555
+    Attrib dload    -3.982496334612376
+    Attrib swin    1.6069407483635196
+    Attrib stcpb    0.0513941398703959
+    Attrib dtcpb    -0.008427230092314606
+    Attrib dwin    -0.3766972601011209
+    Attrib tcprtt    7.887662264742594
+    Attrib synack    11.182785928513306
+    Attrib ackdat    -1.346217161246978
+    Attrib smean    -3.9079714313813714
+    Attrib dmean    -37.07118215393168
+    Attrib ct_state_ttl    -0.18973014575051048
+    Attrib is_ftp_login    3.6235748209053495
+    Attrib ct_ftp_cmd    3.504873056965408
+    Attrib ct_flw_http_mthd    15.392138128637383
+    Attrib is_sm_ips_ports    0.06844057647799792
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -6.329715960393734
+    Attrib dur    -39.27045638417403
+    Attrib spkts    7.618568321596755
+    Attrib dpkts    4.605766658177206
+    Attrib sbytes    6.293304518739091
+    Attrib dbytes    6.255045984138514
+    Attrib sttl    10.030402088869558
+    Attrib dttl    0.36357359911888004
+    Attrib sload    2.221773413484602
+    Attrib dload    6.069985762331917
+    Attrib swin    -0.5838244097532141
+    Attrib stcpb    -0.019459920342547343
+    Attrib dtcpb    0.015583322491365036
+    Attrib dwin    -7.465294969440407
+    Attrib tcprtt    15.006832244347788
+    Attrib synack    27.040669205934694
+    Attrib ackdat    -5.108910175073945
+    Attrib smean    -10.78110623277485
+    Attrib dmean    0.625239018829675
+    Attrib ct_state_ttl    -8.3355311132355
+    Attrib is_ftp_login    1.6101397592266928
+    Attrib ct_ftp_cmd    1.6783217542776998
+    Attrib ct_flw_http_mthd    -30.374617515962626
+    Attrib is_sm_ips_ports    6.561954261994283
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.22472833015713323
+    Attrib dur    -6.8409684925414105
+    Attrib spkts    -2.337364163691704
+    Attrib dpkts    0.5213463414393774
+    Attrib sbytes    -0.6435221774502227
+    Attrib dbytes    0.5869016995633972
+    Attrib sttl    -8.928692689344599
+    Attrib dttl    -19.987264988422453
+    Attrib sload    0.6244056622834401
+    Attrib dload    1.151026177258852
+    Attrib swin    0.821855971521655
+    Attrib stcpb    0.7374881776194678
+    Attrib dtcpb    0.10097951224949978
+    Attrib dwin    -1.1081836541943932
+    Attrib tcprtt    -0.7354887222390117
+    Attrib synack    -0.25871844605269534
+    Attrib ackdat    -0.4906849735504767
+    Attrib smean    14.347059748050508
+    Attrib dmean    4.418366393099813
+    Attrib ct_state_ttl    -5.101396717574274
+    Attrib is_ftp_login    0.6589264893476082
+    Attrib ct_ftp_cmd    0.7374660490486328
+    Attrib ct_flw_http_mthd    0.19150348138087828
+    Attrib is_sm_ips_ports    3.265011372711073
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -4.4115387759791655
+    Attrib dur    -14.596029903061451
+    Attrib spkts    -1.079862478552309
+    Attrib dpkts    2.5300066766410056
+    Attrib sbytes    2.830140694210633
+    Attrib dbytes    4.416504756156065
+    Attrib sttl    -11.7728969777662
+    Attrib dttl    3.2991736279547847
+    Attrib sload    5.185371106714035
+    Attrib dload    4.353504798940802
+    Attrib swin    -9.823957849577738
+    Attrib stcpb    0.074591668685612
+    Attrib dtcpb    0.044820240008775644
+    Attrib dwin    -6.911349688482556
+    Attrib tcprtt    -19.929819599509436
+    Attrib synack    -26.581411944256338
+    Attrib ackdat    6.80182628377016
+    Attrib smean    -2.442812916694976
+    Attrib dmean    -26.63149560659994
+    Attrib ct_state_ttl    3.212674485321515
+    Attrib is_ftp_login    -1.2175303850168064
+    Attrib ct_ftp_cmd    -1.2427324314618127
+    Attrib ct_flw_http_mthd    27.054440065554143
+    Attrib is_sm_ips_ports    4.315471389177041
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -1.2948427405030831
+    Attrib dur    -1.2605527301780017
+    Attrib spkts    1.134575456156005
+    Attrib dpkts    1.0914706366950433
+    Attrib sbytes    1.224675457096128
+    Attrib dbytes    0.961262054413579
+    Attrib sttl    -0.23102201420264182
+    Attrib dttl    5.120541742562636
+    Attrib sload    2.0441439675959847
+    Attrib dload    2.356304933249699
+    Attrib swin    1.1451146811855346
+    Attrib stcpb    0.7336132193529321
+    Attrib dtcpb    0.43793027025995046
+    Attrib dwin    2.1385499752960793
+    Attrib tcprtt    -5.269211410866653
+    Attrib synack    -3.0117721637668082
+    Attrib ackdat    -2.516060496340783
+    Attrib smean    -3.3742912767213498
+    Attrib dmean    8.327286581354887
+    Attrib ct_state_ttl    6.061735758275215
+    Attrib is_ftp_login    -1.9023810245828403
+    Attrib ct_ftp_cmd    -1.8785069305310327
+    Attrib ct_flw_http_mthd    8.411947938038036
+    Attrib is_sm_ips_ports    1.2510770765277472
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -8.604601096513116
+    Attrib dur    12.557341912695978
+    Attrib spkts    5.856216979462833
+    Attrib dpkts    9.108069369754244
+    Attrib sbytes    6.862978994908881
+    Attrib dbytes    8.48961802304771
+    Attrib sttl    3.659448394380151
+    Attrib dttl    -9.758504046872007
+    Attrib sload    8.609130451071026
+    Attrib dload    8.401022840055523
+    Attrib swin    -11.3177704359479
+    Attrib stcpb    0.039565523637599916
+    Attrib dtcpb    0.024916365350287278
+    Attrib dwin    -10.626628447430035
+    Attrib tcprtt    -4.88643085078135
+    Attrib synack    -3.089429793137305
+    Attrib ackdat    3.8809374601941133
+    Attrib smean    0.9847241235858502
+    Attrib dmean    -78.78066877501453
+    Attrib ct_state_ttl    13.7101678556315
+    Attrib is_ftp_login    1.2631236462303865
+    Attrib ct_ftp_cmd    1.2761887862456696
+    Attrib ct_flw_http_mthd    -40.64308169211809
+    Attrib is_sm_ips_ports    8.76307998943937
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    1.4166854763484724
+    Attrib dur    -2.3719542967614204
+    Attrib spkts    1.5482908920161325
+    Attrib dpkts    -1.03140597419518
+    Attrib sbytes    0.9603017059051154
+    Attrib dbytes    -1.4067878387978903
+    Attrib sttl    2.3065307669019837
+    Attrib dttl    -2.6516264598709727
+    Attrib sload    -0.62626075399634
+    Attrib dload    -2.4775718251816814
+    Attrib swin    -15.764171085039807
+    Attrib stcpb    0.07275581303221164
+    Attrib dtcpb    -0.16696475170168612
+    Attrib dwin    -0.29302591842268033
+    Attrib tcprtt    1.1768710529071136
+    Attrib synack    -0.516612813976953
+    Attrib ackdat    0.9779759958037787
+    Attrib smean    19.374445079531394
+    Attrib dmean    -4.111503282611575
+    Attrib ct_state_ttl    4.036937494437578
+    Attrib is_ftp_login    -2.1742744301621175
+    Attrib ct_ftp_cmd    -2.1427179028166363
+    Attrib ct_flw_http_mthd    12.020821682533263
+    Attrib is_sm_ips_ports    -2.913262274577744
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    0.8032075012451837
+    Attrib dur    1.750054520239514
+    Attrib spkts    2.8211027096741685
+    Attrib dpkts    -0.3297651025972044
+    Attrib sbytes    2.539976046664532
+    Attrib dbytes    -0.7701259354525877
+    Attrib sttl    -12.837375670802935
+    Attrib dttl    -3.6796616004389544
+    Attrib sload    0.8610482263954434
+    Attrib dload    -0.960920897712275
+    Attrib swin    -8.167138480881711
+    Attrib stcpb    0.5580328999472132
+    Attrib dtcpb    0.25197334771699925
+    Attrib dwin    -6.904946953742513
+    Attrib tcprtt    -3.875689695484274
+    Attrib synack    -3.154873614206036
+    Attrib ackdat    -2.242170252793321
+    Attrib smean    39.08692616325636
+    Attrib dmean    -0.8029568142220335
+    Attrib ct_state_ttl    11.987963759753757
+    Attrib is_ftp_login    -0.9048067634286788
+    Attrib ct_ftp_cmd    -0.9163706987583528
+    Attrib ct_flw_http_mthd    -2.7505362327274643
+    Attrib is_sm_ips_ports    -1.6956369559021425
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    5.545689407713587
+    Node 2    6.838073210364599
+    Node 3    0.6090072593849903
+    Node 4    -6.509723367938741
+    Node 5    4.303898871887997
+    Node 6    -4.3688062766382325
+    Node 7    -4.224222479574529
+    Node 8    -2.296087528195503
+    Node 9    -6.855074573649073
+    Node 10    6.119925892987188
+    Node 11    -9.60923890128627
+    Node 12    9.74989136390997
+    Node 13    -1.8723314018020776
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -3.0577131264262047
+    Node 2    13.933579221180759
+    Node 3    1.707060423595609
+    Node 4    -7.238522796185493
+    Node 5    18.646689690645367
+    Node 6    -15.366737619008662
+    Node 7    -9.136755438522389
+    Node 8    -6.306857252651053
+    Node 9    9.257924038516885
+    Node 10    7.564755500260772
+    Node 11    -11.212212156897891
+    Node 12    3.372355982899409
+    Node 13    3.768678020127932
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    12.933820174973132
+    Node 2    -1.5785758869909952
+    Node 3    -0.7700407080367738
+    Node 4    3.989138540829239
+    Node 5    -12.282265234450028
+    Node 6    -16.348561991614012
+    Node 7    12.199678801930517
+    Node 8    -2.6702625336678514
+    Node 9    2.100161218237396
+    Node 10    3.509168036367961
+    Node 11    2.8873826769179676
+    Node 12    1.2649048766836117
+    Node 13    -7.925029186969459
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    4.441542515672391
+    Node 2    -1.2097713112571051
+    Node 3    10.989369759559791
+    Node 4    -3.2986635053617555
+    Node 5    -8.315074391909285
+    Node 6    -12.574778446147187
+    Node 7    1.9085783684843702
+    Node 8    -8.303974270075985
+    Node 9    -0.5739899170006052
+    Node 10    -4.976493464459577
+    Node 11    8.111037046566027
+    Node 12    8.90285257322623
+    Node 13    8.901138316503337
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -12.963628746404245
+    Node 2    -2.962460592344977
+    Node 3    4.7403678504091715
+    Node 4    14.625007003632602
+    Node 5    11.624243374008048
+    Node 6    -5.297100730606645
+    Node 7    -1.362038575166633
+    Node 8    -17.072814276130373
+    Node 9    4.036300752024083
+    Node 10    9.535756994184718
+    Node 11    -5.209559114552635
+    Node 12    11.06559315313305
+    Node 13    9.073545651389752
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -0.9211728215396146
+    Node 2    -4.302406242264124
+    Node 3    -4.06081949808941
+    Node 4    -36.98950092186829
+    Node 5    2.1631003950743315
+    Node 6    -7.2241779889206175
+    Node 7    2.6053032190110024
+    Node 8    -12.478952219312992
+    Node 9    5.30815450503934
+    Node 10    8.848729499061108
+    Node 11    4.599729768099383
+    Node 12    7.126359292022361
+    Node 13    -6.972128883764855

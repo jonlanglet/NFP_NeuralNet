@@ -1,0 +1,3 @@
+nf rtsym _pif_register_reg_pktCount
+nf rtsym _pif_register_reg_srcAddr
+nf rtsym _pif_register_reg_dstAddr
